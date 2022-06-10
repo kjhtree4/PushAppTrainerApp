@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="난이도">
+        <item>상</item>
+        <item>중</item>
+        <item>하</item>
+    </string-array>
+
+    <string-array name="훈련근육">
+        <item>어깨</item>
+        <item>바깥가슴</item>
+        <item>안쪽가슴</item>
+        <item>아랫가슴</item>
+        <item>윗가슴</item>
+        <item>대흉근</item>
+    </string-array>
+
+</resources>

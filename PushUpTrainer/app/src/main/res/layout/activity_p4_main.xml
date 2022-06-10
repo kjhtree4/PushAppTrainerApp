@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityP4Main"
+    android:background="@color/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1,2">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black">
+
+                <TextView
+                    android:id="@+id/p4textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@color/back"
+                    android:textColor="@color/white"
+                    android:padding="5dp"
+                    android:layout_span="2"
+                    android:text="[측정방법]\n 1.시작버튼 클릭 시 타이머 작동\n 2.측정버튼을 클릭 시 카운트가 증가 한다.\n 3.측정을 종료하고 싶으면 측정종료 버튼을 누른다.\n - 종료시 카운트된 값들이 메인화면에 나타난다\n" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:id="@+id/p4btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="카운트 인덱스"
+                    android:textColor="@color/white"
+                    android:background="@drawable/buttonshape"/>
+                <Button
+                    android:id="@+id/p4btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="시작"
+                    android:textColor="@color/white"
+                    android:background="@drawable/buttonshape"/>
+
+
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

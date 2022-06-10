@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PushUpTrainer</string>
+    <string name="left">&lt;</string>
+    <string name="right">&gt;</string>
+</resources>
